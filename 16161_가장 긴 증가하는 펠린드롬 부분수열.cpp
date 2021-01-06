@@ -21,9 +21,9 @@ int main(){
 				k++;
 			}
 			
-			if(len > mx) mx = len;
+			i += k - 1;
 			
-			while(i + k + 1 < n && seq[i + k] < seq[i + k + 1]) i++;
+			if(len > mx) mx = len;
 		}
 	}
 	
